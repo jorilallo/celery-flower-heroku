@@ -1,6 +1,6 @@
 # Celery Flower monitoring for Heroku
 
-Flower is a handy tool for monitoring Celery processes. As it's build on top of Tornado web server it needs it's own outside facing port and can't be run as part of your regular Heroku app which only provides one ```web``` process type. Luckily Flower is really easy to install as another app and can be run free of charge on Heroku.
+[Flower](https://github.com/mher/flower/) is a handy tool for monitoring [Celery](http://www.celeryproject.org/) processes. As it's build on top of Tornado web server it needs it's own outside facing port and can't be run as part of your regular Heroku app which only provides one ```web``` process type. Luckily Flower is really easy to install as another app and can be run free of charge on Heroku.
 
 This project template/guide helps you to bootstrap the process and creates a simple app for running Flower.
 
@@ -26,4 +26,4 @@ Push to heroku:
 
     git push heroku master
 
-Now visit the app. It will ask for a username (```flower```) and password (which you defined above).
+Now visit the app. It will ask for a username and a password which you defined above.

@@ -14,7 +14,7 @@ Create an Heroku app:
 
 Add database for persistance:
 
-    heroku addons:add heroku-postgresql:dev
+    heroku addons:create heroku-postgresql:hobby-dev
     heroku config:set DATABASE_URL=<copy the newly created database url here>
 
 Configure the app by providing your broker url (RabbitMQ, Redis, what have you) and a password for logging into Flower:
